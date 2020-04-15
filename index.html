@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spender</title>
+    <link rel="stylesheet" href="budget.css">
+    <link rel="stylesheet" href="calibrefont/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="expense-form" class="hidden">
+            <h1>TOTAL AMOUNT</h1>
+            <div id="total"></div>
+            <div class="input-container">
+                <span>Expense title:</span>   <input type="text" id="title" class="input-field" required>
+                <span>Amount:</span>  <input type="text"  id="amount" class="input-field" required>
+               
+                <button id="save" onclick="saveExpense()">Save</button> 
+                 <p id="error-text"></p>
+            </div>
+        </div>
+        <button id="add">Add</button>
+        <h2>EXPENSE LIST</h2>
+        <div id="expense-list">
+            <ul id="expenses-list"></ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

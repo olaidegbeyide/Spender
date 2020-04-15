@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image:linear-gradient(#42275a, #734b6d);
+    height: 100vh;
+}
+.container {
+    width: 80%;
+    height: auto;
+    margin: 40px auto 0px;
+    border-radius: 10px;
+    background-image: linear-gradient(#ddd6f3, #faaca8);
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    font-size:27px;
+    text-align: center;
+    font-family: 'calibre medium';
+    padding-top: 20px;
+}
+#total {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'calibre bold';
+}
+.input-container {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px;
+}
+ .input-field {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: transparent;
+    font-size: 18px;
+    max-width: 210px;
+}
+span{
+    font-size: 27px;
+    font-family:'Calibre Medium';
+}
+
+#save {
+    width: 80px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: transparent;
+    background-color: purple;
+}
+#add {
+    margin-top: 24px;
+    margin-left: 100px;
+    width:80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: transparent;
+    font-size: 18px;
+    background-color: purple;
+}
+#error-text {
+    font-size: 22px;
+    font-family: 'calibre medium';
+    font-style: italic;
+
+}
+#expenses-list  {
+    font-size: 20px;
+    list-style-type: none;
+    
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'calibre light';
+    margin-left: 20px;
+}
+.exp-list {
+    font-family: 'calibre light';
+    font-size: 15px;
+    padding-bottom: 30px;
+   
+}
+.exp-amount {
+    font-family: 'calibre medium';
+    font-size: 18px;
+    
+
+}
+.delete-button {
+    width: 80px;
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: transparent;
+    background-color: purple;
+}
+.no-exp {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'calibre regular';
+}
+
+@media only screen and (min-width:1200px) {
+    .container {
+       max-width: 80%;
+        height: auto;
+        margin: 100px auto 0px;
+        border-radius: 10px;
+        background-image: linear-gradient(#ddd6f3, #faaca8);
+    }
+    .input-container {
+        margin-left: 50px;
+        margin-top: 20px;
+        padding: 5px;
+    }
+    #expenses-list {
+        text-align: center;
+    }
+    .exp-amount {
+        font-family: 'calibre medium';
+        font-size: 20px;
+    }
+    .exp-list {
+        font-family: 'calibre light';
+        font-size: 20px;
+    }
+    #add {
+        margin-top: 24px;
+        margin-left: 450px;
+    }
+    #error-text {
+        font-size: 25px;
+        margin-left: 350px;
+        font-family: 'calibre medium';
+        font-style: italic;
+
+    }
+    .input-field {
+        margin-left: 10px;
+    }
+    span{
+        padding-left: 20px;
+    }
+    
+}
+@media (min-width:700px) and (max-width:1200px) {
+    .container {
+        width: 95%;
+        height: auto;
+        margin: 100px auto 0px;
+        border-radius: 10px;
+        background-image: linear-gradient(#ddd6f3, #faaca8);
+    }
+
+    #add {
+        margin-top: 24px;
+        margin-left: 300px;
+        width: 100px;
+        font-size: 20px;
+    }
+    #save {
+        width: 100px;
+        padding: 10px;
+        margin-left: 280px;
+        margin-top: 15px;
+        border-radius: 5px;
+        font-size: 20px;
+        
+    }
+    span{
+        padding-left: 5px;
+    }
+    #error-text {
+        font-size: 25px;
+        font-family: 'calibre medium';
+        font-style: italic;
+
+    }
+
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
